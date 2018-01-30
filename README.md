@@ -7,7 +7,7 @@
 - cd Eternalblue-Doublepulsar-Metasploit
 - cp eternalblue_doublepulsar.rb /usr/share/metasploit-framework/modules/exploits/windows/smb
 
-* Note !!!: Also copy 'deps' directory to /usr/share/metasploit-framework/modules/exploits/windows/smb
+Note !!!: Also copy 'deps' directory to /usr/share/metasploit-framework/modules/exploits/windows/smb
 
 - mkdir -p /root/.wine/drive_c/
 
