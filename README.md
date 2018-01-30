@@ -6,7 +6,7 @@ dpkg --add-architecture i386 && apt-get update -y && apt-get install wine32 -y
 git clone https://github.com/grglzrv/Eternalblue-Doublepulsar-Metasploit.git
 cd Eternalblue-Doublepulsar-Metasploit
 cp eternalblue_doublepulsar.rb /usr/share/metasploit-framework/modules/exploits/windows/smb
-# Note: Also copy 'deps' directory to /usr/share/metasploit-framework/modules/exploits/windows/smb
+Note: Also copy 'deps' directory to /usr/share/metasploit-framework/modules/exploits/windows/smb
 mkdir -p /root/.wine/drive_c/
 
 # How to use
