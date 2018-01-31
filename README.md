@@ -6,7 +6,8 @@
 ~]# git clone https://github.com/grglzrv/Eternalblue-Doublepulsar-Metasploit.git
 ~]# cd Eternalblue-Doublepulsar-Metasploit
 ~]# cp eternalblue_doublepulsar.rb /usr/share/metasploit-framework/modules/exploits/windows/smb
-<strong style="color: red;">Note !!!</strong>: Also copy 'deps' directory to /usr/share/metasploit-framework/modules/exploits/windows/smb
+<br>
+<strong "color=red">Note !!!</strong>: Also copy 'deps' directory to /usr/share/metasploit-framework/modules/exploits/windows/smb
 <br>
 ~]# mkdir -p /root/.wine/drive_c/
 </pre>
