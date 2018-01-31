@@ -1,7 +1,7 @@
 # Eternalblue-Doublepulsar-Metasploit
 
 # How to Install
-
+<pre>
 - dpkg --add-architecture i386 && apt-get update -y && apt-get install wine32 -y
 - git clone https://github.com/grglzrv/Eternalblue-Doublepulsar-Metasploit.git
 - cd Eternalblue-Doublepulsar-Metasploit
@@ -10,7 +10,7 @@
 Note !!!: Also copy 'deps' directory to /usr/share/metasploit-framework/modules/exploits/windows/smb
 
 - mkdir -p /root/.wine/drive_c/
-
+</pre>
 # How to use
 
 - service postgresql start
