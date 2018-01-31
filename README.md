@@ -7,7 +7,10 @@
 ~]# cd Eternalblue-Doublepulsar-Metasploit
 ~]# cp eternalblue_doublepulsar.rb /usr/share/metasploit-framework/modules/exploits/windows/smb
 <br>
-<strong "color=red">Note !!!</strong>: Also copy 'deps' directory to /usr/share/metasploit-framework/modules/exploits/windows/smb
+<style>
+strong {color:red;}
+</style>
+<strong>Note !!!</strong>: Also you may copy 'deps' directory to /usr/share/metasploit-framework/modules/exploits/windows/smb
 <br>
 ~]# mkdir -p /root/.wine/drive_c/
 </pre>
@@ -21,7 +24,7 @@
 - show options
 </pre>
 <br>
- <strong style="color: grey;">+++ For Windows x64</strong>
+ <strong>For Windows x64</strong>
 <br>
 <pre>
  - set RHOST (Target IP)
@@ -34,7 +37,7 @@
  - run or exploit
  </pre>
  <br>
- <strong style="color: grey;">For Windows x86</strong>
+ <strong>For Windows x86</strong>
  <br>
 <pre>
  - set RHOST (Target IP)
